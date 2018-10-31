@@ -15,7 +15,7 @@ body {
     background-size: 50%;
     background-repeat: repeat-x;
     background-color: wheat;
-    background-position: center top;
+    background-position: center center;
     background-attachment: fixed;
     color: whitesmoke;
 }
@@ -31,4 +31,17 @@ h2 {
 
 .answers {
     padding-bottom: 10px;
+}
+
+#time {
+    position: sticky;
+    top: 0;
+    width: 95%;
+    background-color: firebrick;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    overflow: hidden;
+    font-size: 35px;
 }
